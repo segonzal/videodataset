@@ -1,0 +1,16 @@
+name: videodataset
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - numpy=1.19
+  - django=4.1
+  - scrapy=2.6
+  - beautifulsoup4=4.11
+  - pip=20.3
+  - pip:
+    - youtube-dl
+    - facenet-pytorch==2.5.*
+    - pyopenssl>22.1.0
+    - cryptography==38.0.4
